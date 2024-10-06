@@ -15,7 +15,7 @@ function changeLanguage(language) {
             contactTitle: 'Contact Us',
             address: 'Address: <a href="https://maps.google.com/?q=40.97403188208962,71.62402351375569" target="_blank">Davlatobod, Namangan</a>',
             email: 'Email: 78school@example.com',
-            phone: 'Phone: +998-90-123-4567'
+            phone: 'Phone: +998-94-948-0542'
         },
         ru: {
             schoolName: '78-я школа Наманган, Давлатобод',
@@ -32,7 +32,7 @@ function changeLanguage(language) {
             contactTitle: 'Связаться с нами',
             address: 'Адрес: <a href="https://maps.google.com/?q=40.97403188208962,71.62402351375569" target="_blank">Давлатобод, Наманган</a>',
             email: 'Электронная почта: 78school@example.com',
-            phone: 'Телефон: +998-90-123-4567'
+            phone: 'Телефон: +998-94-948-0542'
         },
         uz: {
             schoolName: '78-Sonli Maktab Namangan, Davlatobod',
@@ -49,7 +49,7 @@ function changeLanguage(language) {
             contactTitle: 'Biz bilan bog\'laning',
             address: 'Manzil: <a href="https://maps.google.com/?q=40.97403188208962,71.62402351375569" target="_blank">Davlatobod, Namangan</a>',
             email: 'Email: 78school@example.com',
-            phone: 'Telefon: +998-90-123-4567'
+            phone: 'Telefon: +998-94-948-0542'
         }
     };
 
