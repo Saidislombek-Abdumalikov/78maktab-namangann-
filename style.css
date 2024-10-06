@@ -130,19 +130,3 @@ footer {
 }
 
 /* Animation to move the button across the screen */
-@keyframes moveAcross {
-    0% {
-        left: 0;
-    }
-    50% {
-        left: calc(100% - 200px); /* Move it to the right (adjust as needed) */
-    }
-    100% {
-        left: 0;
-    }
-}
-
-/* Optional: Add hover effect */
-#test-mode-button:hover {
-    background-color: #ffaa00;
-}
