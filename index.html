@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>78-Sonli Maktab Namangan | Asosiy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="school-name">78-Sonli Maktab Namangan, Davlatobod</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" id="nav-about">Biz haqimizda</a></li>
+                <li><a href="#news" id="nav-news">Yangiliklar</a></li>
+                <li><a href="#contact" id="nav-contact">Aloqa</a></li>
+            </ul>
+        </nav>
+        <div class="language-selector">
+            <label for="language">Tilni tanlang:</label>
+            <select id="language" onchange="changeLanguage(this.value)">
+                <option value="uz">O'zbekcha</option>
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+            </select>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="about">
+            <h2 id="about-title">Biz haqimizda</h2>
+            <p id="about-text">Davlatobodda joylashgan Namangan 78-sonli umumiy o'rta ta'lim maktabiga xush kelibsiz. Biz o'quvchilarimizga sifatli ta'lim berishni maqsad qilganmiz va ularni kelajakdagi muvaffaqiyatlarga tayyorlaymiz.</p>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="news">
+            <h2 id="news-title">So'nggi yangiliklar</h2>
+            <div class="news-item">
+                <h3 id="news-item-title-1">Ilmiy dastur ishga tushirildi</h3>
+                <p id="news-item-text-1">Biz yangi ilmiy dasturini e'lon qilamiz, u o'quvchilarni STEM yo'nalishida faol ishtirok etishga undaydi.</p>
+            </div>
+            <div class="news-item">
+                <h3 id="news-item-title-2">Bo'lajak sport tadbirlari</h3>
+                <p id="news-item-text-2">Sport kuni yaqinlashmoqda! O'quvchilarimiz turli musobaqalarda ishtirok etishga tayyorlanmoqda.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-info">
+        <h2 id="contact-title">Biz bilan bog'laning</h2>
+        <p id="address">Manzil: <a href="https://maps.google.com/?q=40.97403188208962,71.62402351375569" target="_blank">Davlatobod, Namangan</a></p>
+        <p id="email">Email: 78school@example.com</p>
+        <p id="phone">Telefon: +998-90-123-4567</p>
+        <a href="mailto:78school@example.com" class="button">Bizga yozing</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 78-Sonli Maktab Namangan, Davlatobod. Saidislom tomonidan tuzildi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
