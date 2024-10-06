@@ -69,3 +69,14 @@ function changeLanguage(language) {
     document.getElementById('email').innerHTML = content[language].email;
     document.getElementById('phone').innerHTML = content[language].phone;
 }
+// Get the test mode button
+const testModeButton = document.getElementById('test-mode-button');
+
+// Toggle animation on click
+testModeButton.addEventListener('click', () => {
+    if (testModeButton.style.animationPlayState === 'paused') {
+        testModeButton.style.animationPlayState = 'running';
+    } else {
+        testModeButton.style.animationPlayState = 'paused';
+    }
+});
